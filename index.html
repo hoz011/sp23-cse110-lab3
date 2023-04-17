@@ -87,8 +87,6 @@
                 <label for="female"> Female</label><br>
                 <input type="checkbox" id="male" name="male" value="male">
                 <label for="male"> Male</label><br>
-                <label for="name">Enter your name: </label>
-                <input type="text" name="name" id="name" required>
                 <label for="birthday">Birthday:</label>
                 <input type="date" id="birthday" name="birthday"><br><br>
             </fieldset>
@@ -100,7 +98,7 @@
                 <input type="radio" id="python" name="fav_language" value="Python">
                 <label for="python">Python</label><br>
                 <input type="radio" id="c" name="fav_language" value="C">
-                <label for="c">C</label>
+                <label for="c">C</label><br>
                 <input type="radio" id="other" name="fav_language" value="Other">
                 <label for="other">Other</label>
                 <label for="story">How did you get into computer science?</label>
@@ -117,7 +115,15 @@
                     <option value="UI/UX">
                     <option value="DevOps">
                     <option value="Other">
-                </datalist>
+                </datalist><br>
+                
+                <select name="jobs" id="jobs">
+                  <option value="fe">Frontend</option>
+                  <option value="be">Backend</option>
+                  <option value="ui">UI/UX</option>
+                  <option value="dev">DevOps</option>
+                  <option value="ot">Other</option>
+                </select>
 
             </fieldset>
         </form>
