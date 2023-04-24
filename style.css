@@ -41,4 +41,15 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    height: 60%;
+}
+
+a:visited {
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-top: 8mm;
+    padding-bottom: 8mm;
 }
