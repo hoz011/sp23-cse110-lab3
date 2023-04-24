@@ -21,6 +21,7 @@ hr {
     border-width: 2px;
     border-style: solid;
     border-color: hsl(0, 0%, 0%);
+    border-radius: 0%;
     margin: 20px 30px;
 }
 
@@ -52,4 +53,12 @@ nav ul {
     list-style-type: none;
     padding-top: 8mm;
     padding-bottom: 8mm;
+}
+
+ul {
+    padding: 8mm auto;
+}
+
+ol {
+    padding: 8mm auto;
 }
