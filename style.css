@@ -1,6 +1,7 @@
 html {
     background-color: #e6e6e6;
     font-family: "Inter Tight";
+    margin: auto 3cm;
 }
 
 h1 { /*Style the main header*/
@@ -8,9 +9,21 @@ h1 { /*Style the main header*/
     text-align: center;
     font-family: "Koulen";
     margin: auto;
+    color: black;
 }
 
 h2 {
     font-size: 40px;
     color: rgb(77, 77, 77);
+}
+
+hr {
+    border-width: 3px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 0%);
+    margin: 20px 70px;
+}
+
+strong {
+    text-decoration: underline;
 }
