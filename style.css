@@ -18,7 +18,8 @@ h2 {
 }
 
 hr {
-    border-top: 3px solid;
+    border-width: 3px;
+    border-style: solid;
     border-color: hsl(0, 0%, 0%);
     margin: 20px 70px;
 }
