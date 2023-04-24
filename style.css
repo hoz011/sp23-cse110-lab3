@@ -1,5 +1,6 @@
 html {
-    
+    background-color: #e6e6e6;
+    font-family: "Inter Tight";
 }
 
 h1 { /*Style the main header*/
@@ -7,4 +8,9 @@ h1 { /*Style the main header*/
     text-align: center;
     font-family: "Koulen";
     margin: auto;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(77, 77, 77);
 }
