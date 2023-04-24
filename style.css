@@ -23,3 +23,7 @@ hr {
     border-color: hsl(0, 0%, 0%);
     margin: 20px 70px;
 }
+
+strong {
+    text-decoration: underline;
+}
