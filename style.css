@@ -10,6 +10,8 @@ h1 { /*Style the main header*/
     font-family: "Koulen";
     margin: auto;
     color: black;
+    position: sticky;
+    background-color: #e6e6e6;
 }
 
 h2 {
@@ -38,6 +40,7 @@ img {
     border-width: 2px;
     border-style: solid;
     border-color: black;
+    position: static;
 }
 
 .center {
@@ -64,4 +67,9 @@ ul {
 
 ol {
     padding: 8mm auto;
+}
+
+details {
+    padding-top: 10mm;
+    padding-bottom: 10mm;
 }
